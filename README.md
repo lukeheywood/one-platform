@@ -1,51 +1,67 @@
-# ONE — System Atlas
+# ONE — System Atlas (Public Glass Case)
 
 This repository is the **public System Atlas** for ONE.
 
-It contains **curated, promoted artifacts** that describe system architecture, governance, and outcomes.
+It contains **curated, promoted artifacts** that describe architecture, governance, and concrete outcomes.
 It is intentionally **non-executable** and **read-only in spirit**.
 
-> This repository is a map — not the system itself.
+> This repository is the map — not the private/local system.
+
+**Audience:** senior engineers, architects, and technical hiring managers  
+**Last verified:** 2026-01-01
 
 ---
 
 ## What this repository is
+
 - A stable navigation surface for promoted work
 - A coherence check across public artifacts
 - A reference for technical discussion and assessment
 
 ## What this repository is not
-- Not a runtime environment
-- Not a development workspace
-- Not a full code mirror
-- Not an experiment log
 
-The live system runs locally. Only reviewed and intentionally promoted artifacts appear here.
+- Source code for runtime engines
+- Private/local configuration, data, prompts, or logs
+- A roadmap or a claim of future capability
 
 ---
 
-## Repository Structure
+## How to navigate
 
-- **/atlas** — high-level system orientation and architecture
-- **/contracts** — boundaries, promotion rules, and naming discipline
-- **/codex** — reusable design reasoning and philosophy
-- **/case-studies** — narrative, evidence-backed outcomes
-- **/reference** — diagrams and explanatory snippets
+- **Atlas**
+  - `atlas/overview.md` — what ONE is (systems-level)
+  - `atlas/architecture.md` — engines, boundaries, relationships
+  - `atlas/governance.md` — promotion rules and invariants
+  - `atlas/repo-index.md` — **index of the public repos** (glass case map)
+  - `atlas/current-state.md` — **current-state snapshot** of public repo content
+
+- **Contracts** (deterministic constraints)
+  - `contracts/PROMOTION_RULES.md`
+  - `contracts/SYSTEM_BOUNDARIES.md`
+  - `contracts/NAMING_CONVENTIONS.md`
+
+- **Codex** (design notes, scoped)
+  - `codex/memory-architecture.md`
+  - `codex/workflow-philosophy.md`
+  - `codex/explainability.md`
+
+- **Case Studies** (promoted evidence)
+  - `case-studies/system-explainability-under-load.md` — **Case Study 1 (canonical anchor)**
+
+- **Reference**
+  - `reference/diagrams/` — diagrams (when promoted)
+  - `reference/snippets/` — short excerpts and snippets (when promoted)
 
 ---
 
-## Audience
-
-This Atlas is written primarily for **senior engineers and technical hiring managers**.
-Clarity and boundaries are prioritised over breadth or hype.
-
----
-
-## Promotion Principle
+## Promotion principle (black-and-white)
 
 If an artifact exists here, it has been:
-- Built and validated locally
-- Reviewed for coherence and scope
-- Intentionally promoted
+
+- built and validated elsewhere (private/local)
+- bounded for public representation (scope and exclusions)
+- reviewed for coherence against contracts
+- intentionally promoted
 
 Everything else remains private by design.
+
