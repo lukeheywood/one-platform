@@ -35,6 +35,10 @@ It is intentionally **non-executable** and **read-only in spirit**.
   - `atlas/repo-index.md` — **index of the public repos** (glass case map)
   - `atlas/current-state.md` — **current-state snapshot** of public repo content
 
+  - `atlas/north-star.md` — **canonical semantic orientation** (frozen)
+  - `atlas/governance/ai-usage-invariants.md` — **AI usage constraints** (frozen)
+  - `atlas/representation-anchor.md` — **communication & representation rules** (frozen)
+
 - **Contracts** (deterministic constraints)
   - `contracts/PROMOTION_RULES.md`
   - `contracts/SYSTEM_BOUNDARIES.md`
