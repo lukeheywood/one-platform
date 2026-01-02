@@ -9,3 +9,11 @@ The system prioritises:
 - Human-in-the-loop control
 
 This Atlas documents **what has stabilised**, not everything that exists.
+
+## Core Orientation (Frozen)
+
+ONE is governed by a fixed semantic orientation: systems must be able to know and
+explain themselves deterministically before AI is applied.
+
+This orientation constrains system design, AI usage, and representation.
+See [North Star — Semantic Orientation](./north-star.md).
