@@ -50,7 +50,7 @@ It is intentionally **non-executable** and **read-only in spirit**.
   - `codex/explainability.md`
 
 - **Case Studies** (promoted evidence)
-  - `case-studies/system-explainability-under-load.md` — **Case Study 1 (canonical anchor)**
+  - `atlas/case-studies/explainability-under-load.md` — **Case Study 1 (canonical anchor)**
 
 - **Reference**
   - `reference/diagrams/` — diagrams (when promoted)
