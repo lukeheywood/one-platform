@@ -1,77 +1,77 @@
-# Governance Index
+# Governance
 
-This section exposes the **governance surfaces** that constrain and stabilise ONE.
+This section defines how ONE is constrained, stabilised, and kept coherent over time.
 
-Governance in ONE exists to:
-- prevent capability drift,
-- block unsupported claims,
-- enforce promotion discipline,
-- and ensure authority remains explicit.
+Governance in ONE exists to **prevent drift**, **block unsupported claims**, and **enforce discipline**
+around what may be promoted, represented, or relied upon.
 
-The Atlas **does not redefine governance**.
-It links to canonical governance artifacts maintained in their respective repositories.
+The System Atlas does **not** redefine governance.
+It acts as a navigation and reference surface for governance that is defined elsewhere.
 
 ---
 
-## Governance scope
+## Scope
 
-Governance within ONE covers:
+Governance in ONE applies to all promoted system material, including:
 
-- capability promotion and demotion
-- contract definition and enforcement
-- termination and abstention rules
-- freeze and invariance boundaries
-- evidence requirements for claims
+- capabilities and workflows
+- diagnostics and inspection surfaces
+- documentation and public representations
+- case studies and evidence-backed claims
 
-Governance applies equally to:
-- workflows,
-- diagnostics,
-- documentation,
-- and promoted artifacts.
+No component, artifact, or narrative surface is exempt.
 
-No component is exempt.
+Governance constrains **what may exist publicly**, **what may advance**, and
+**what must be withdrawn or revised**.
 
 ---
 
 ## Canonical governance artifacts
 
-The following artifacts are treated as **sources of truth** for governance and are referenced, not duplicated, by the Atlas:
+Governance rules are defined by a small set of **authoritative artifacts**.
+These artifacts are **referenced**, not duplicated, by the System Atlas.
 
-- **Governance Overview**
-  - High-level governance philosophy and scope  
-  - Defines why governance exists and what it constrains  
-  *(Linked from the main repository governance documentation)*
+They include:
 
-- **Contract Stack**
+- **Governance overview**
+  - Defines the purpose, scope, and limits of governance
+  - Establishes why governance exists and what it constrains  
+  → See: [`System Authority`](../authority/system-authority.md)
+
+- **Contract stack**
   - Formal system contracts
   - Input/output definitions
-  - Validation and termination rules
-  - Promotion gates and regression checks
+  - Validation, abstention, and termination rules
+  - Promotion gates and regression constraints  
+  → See: [`/contracts`](../../contracts/)
 
-- **Promotion Rules**
-  - Criteria for promoting capabilities into the Atlas
-  - Evidence requirements
-  - Review and revision discipline
+- **Promotion rules**
+  - Criteria for advancing material into the Atlas
+  - Evidence and inspection requirements
+  - Review and revision discipline  
+  → See: [`PROMOTION_RULES.md`](../../contracts/PROMOTION_RULES.md)
 
-- **Freeze Declarations**
+- **Freeze declarations**
   - Explicitly frozen orientations, invariants, and semantics
-  - Conditions under which freezes may be revised
+  - Conditions under which freezes may be revised  
+  → Maintained in canonical governance artifacts
 
-Each artifact is authoritative within its defined scope.
+Each artifact is authoritative within its declared scope.
+If artifacts conflict, the more specific constraint prevails.
 
 ---
 
-## Governance behaviour
+## Behaviour
 
 Governance in ONE is **constraining, not advisory**.
 
-- Unsupported behaviour is blocked rather than tolerated
+- Unsupported behaviour is blocked, not tolerated
 - Ambiguous outputs must abstain rather than infer
 - Capabilities without evidence are not promoted
 - Violations trigger review, not justification
 
 Governance does not optimise outcomes.
-It preserves integrity.
+It preserves system integrity under load.
 
 ---
 
@@ -79,19 +79,22 @@ It preserves integrity.
 
 Governance operates under the **System Authority** defined in the Atlas.
 
-- Governance artifacts define constraints
 - Authority defines ownership and accountability
-- Neither is delegated to models or tools
+- Governance defines constraints and enforcement
+- Neither is delegated to models, tools, or automation
 
-Where governance rules conflict with convenience, governance prevails.
+Where convenience conflicts with governance, governance prevails.
 
 ---
 
 ## Revision discipline
 
-Governance artifacts may evolve, but only through:
+Governance artifacts may evolve only through:
+
 - explicit revision,
 - documented rationale,
-- and promotion through the Atlas.
+- and promotion via the System Atlas.
 
 Implicit change is prohibited.
+
+Stability is preserved by intention, not convention.
